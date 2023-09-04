@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+//Importando os elementos vao ser usados
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './routes/Home/index.jsx';
+import Produtos from './routes/Produtos/index.jsx';
+import Error from './routes/Error/index.jsx';
+import EditarProdutos from './routes/EditarProdutos/index.jsx';
