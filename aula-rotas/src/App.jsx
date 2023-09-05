@@ -32,4 +32,18 @@ function App() {
   )
 }
 
+
+// configurando app.jsx para trabalhar cm o 'RouterProvider', app recebeu 'outlet' para liberar a passagem por dentro dele
+import './App.css'
+import { Outlet } from 'react-router-dom'
+
+function App() {
+  return (
+    <>
+
+        <Outlet/>
+    </>
+  )
+}
 export default App
+
